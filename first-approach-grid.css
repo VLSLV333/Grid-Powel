@@ -195,7 +195,9 @@
     .grid-col-span-2{
       grid-column: span 2;
     }
-    
+    #row3{
+      grid-row: 1 / span 3;
+    }
     .testimonial:last-child{
       grid-column: 4;
       /* fully written grid-column property */
@@ -206,7 +208,7 @@
       /* grid-row-start: 1;
       grid-row-end: 3; */
     }
-  
+
     .testimonial-grid {
       grid-template-columns: repeat(4, 1fr);
     }
